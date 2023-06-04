@@ -21,4 +21,9 @@ echo "Auto Updater (Version "$current_version")"
 #wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=FILEID' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=FILEID" -O FILENAME && rm -rf /tmp/cookies.txt
 
 #wget --no-check-certificate "https://drive.google.com/uc?export=download&id="$file_id"" -O "$file_name"
+
+cp "$file_name" ""$filename".old"
+
+rm "$file_name"
+
 wget --no-check-certificate "$download_url" -O "$file_name"
