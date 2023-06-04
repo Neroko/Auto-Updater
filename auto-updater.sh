@@ -5,12 +5,12 @@ download_url="https://raw.githubusercontent.com/Neroko/Auto-Updater/main/auto-up
 file_name="auto-updater.sh"
 
 echo "Auto Updater (Version "$current_version")"
-sudo apt update
-sudo apt upgrade -y
-sudo apt full-upgrade -y
-sudo apt dist-upgrade -y
-sudo apt autoclean
-sudo apt autoremove
+#sudo apt update
+#sudo apt upgrade -y
+#sudo apt full-upgrade -y
+#sudo apt dist-upgrade -y
+#sudo apt autoclean
+#sudo apt autoremove
 
 # Downloading small Google Drive Files using WGET (less than 100MB)
 # Change 'FILEID' and 'FILENAME'
