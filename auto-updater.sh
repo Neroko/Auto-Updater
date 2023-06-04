@@ -1,6 +1,6 @@
 #!/bin/bash
 
-current_version="000.002"
+current_version="000.001"
 download_url="https://raw.githubusercontent.com/Neroko/Auto-Updater/main/auto-updater.sh"
 file_name="auto-updater.sh"
 
