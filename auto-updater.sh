@@ -6,7 +6,7 @@ file_name="auto-updater.sh"
 
 echo "Auto Updater (Version "$current_version")"
 
-cp "$file_name" ""$filename".old"
+cp "$file_name" ""$file_name".old"
 
 rm "$file_name"
 
