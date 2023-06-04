@@ -6,8 +6,8 @@ file_name="auto-updater.sh"
 
 echo "Auto Updater (Version "$current_version")"
 
-cp "$file_name" ""$file_name".old"
+cp --verbose "$file_name" ""$file_name".old"
 
-rm "$file_name"
+rm --verbose "$file_name"
 
 wget --no-check-certificate --output-document="$file_name" "$download_url"
