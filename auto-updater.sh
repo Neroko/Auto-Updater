@@ -10,4 +10,4 @@ cp "$file_name" ""$file_name".old"
 
 rm "$file_name"
 
-wget "$download_url" -O "$file_name"
+wget --no-check-certificate --output-document="$file_name" "$download_url"
